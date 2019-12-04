@@ -21,10 +21,35 @@ body{
   font-family:Tahoma, Arial;
 }
 
+/**** text options ****/
+
+.strongtext{
+  padding-top:2em;
+  padding-bottom:3px;
+  font-size: 1.2em;
+}
+
+.smalltext{
+  font-weight: 1;
+  font-size: 1.2em;
+}
+
+.minitext{
+  padding-top:3em;
+  font-size: 0.8em;
+  font-weight: 1;
+}
+
+.languages{
+  padding-top:1.5em;
+  font-size: 1.2em;
+  font-weight: 1;
+}
 /**** top left ****//**** top left ****//**** top left ****/
 
 #top-left{
-  padding:4em;
+  padding:0em 4em;
+  margin:4em 0em;
   float: left;
   width: 30%;
   border-right-style: solid;
@@ -37,30 +62,19 @@ body{
 }
 
 #top-left h1{
-  padding: 2em 0em;
+  padding-top: 1em;
   font-size: 2em;
 }
 
-.contact{
-  padding:3px 0px;
-}
-.address{
-  padding-top:2em;
-  padding-bottom:3px;
-}
-
-.smalltext{
-  font-weight: 1;
-}
-
-#left_hr1{
-  margin: 3em 0em;
+.left_hr1{
+  margin-top: 3em;
 }
 
 /**** top right ****//**** top right ****//**** top right ****/
 
 #top-right{
-  padding: 4em;
+  padding: 0em 4em;
+  margin:2em 0em;
   float:right;
   width: 70%;
   box-sizing: border-box;
@@ -68,14 +82,24 @@ body{
 }
 
 #top-right h1{
+  padding-top: 1em;
   font-size: 2em;
 }
 
-.timeline{
-  padding-top: 2em;
-  padding-bottom: 3px;
+.right_hr1{
+  margin-top: 3em;
 }
 
-#right_hr1{
-  margin: 3em 0em;
+/**** languages images ****//**** languages images ****/
+
+#polish {
+  padding-left: 2em;
+  list-style-image: url('../images/polish.png');
+
+}
+
+#english{
+  padding-left: 2em;
+  list-style-image: url('../images/english.png');
+
 }
