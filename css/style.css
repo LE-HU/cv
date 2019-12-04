@@ -21,6 +21,7 @@ body{
   font-family:Tahoma, Arial;
 }
 
+
 /**** text options ****/
 
 .strongtext{
@@ -58,7 +59,14 @@ body{
 }
 
 #photo {
+  position:relative;
   width:80%;
+  transition: top ease 0.5s;
+}
+
+#photo:hover {
+  top: -2px;
+  right: -2px;
 }
 
 #top-left h1{
