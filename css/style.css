@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  width:80%;
+  margin:2em auto;
+  overflow:hidden;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #333;
+  border-radius: 10px;
+}
+
+body{
+  background-color: #fff;
+  background-image:url('../images/hex.png');
+  background-position:center center;
+  font-family:Tahoma, Arial;
+}
+
+/**** top left ****//**** top left ****//**** top left ****/
+
+#top-left{
+  padding:4em;
+  float: left;
+  width: 30%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  box-sizing: border-box;
+}
+
+#photo {
+  width:15em;
+}
+
+#top-left h1{
+  padding: 2em 0em;
+  font-size: 2em;
+}
+
+.contact{
+  padding:3px 0px;
+}
+.address{
+  padding-top:2em;
+  padding-bottom:3px;
+}
+
+.smalltext{
+  font-weight: 1;
+}
+
+#left_hr1{
+  margin: 3em 0em;
+}
+
+/**** top right ****//**** top right ****//**** top right ****/
+
+#top-right{
+  padding: 4em;
+  float:right;
+  width: 70%;
+  box-sizing: border-box;
+
+}
+
+#top-right h1{
+  font-size: 2em;
+}
+
+.timeline{
+  padding-top: 2em;
+  padding-bottom: 3px;
+}
+
+#right_hr1{
+  margin: 3em 0em;
+}
