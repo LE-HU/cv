@@ -1,12 +1,12 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-  width:80%;
-  margin:2em auto;
-  overflow:hidden;
+.container {
+  width: 80%;
+  margin: 2em auto;
+  overflow: hidden;
   background-color: #fff;
   border-style: solid;
   border-width: 3px;
@@ -14,43 +14,45 @@
   border-radius: 10px;
 }
 
-body{
+body {
   background-color: #fff;
-  background-image:url('../images/hex.png');
-  background-position:center center;
-  font-family:Tahoma, Arial;
+  background-image: url('../images/hex.png');
+  background-position: center center;
+  font-family: Tahoma, Arial;
 }
 
-
+/**** text options ****/
 /**** text options ****/
 
-.strongtext{
-  padding-top:2em;
-  padding-bottom:3px;
+.strongtext {
+  padding-top: 2em;
+  padding-bottom: 3px;
   font-size: 1.2em;
 }
 
-.smalltext{
+.smalltext {
   font-weight: 1;
   font-size: 1.2em;
 }
 
-.minitext{
-  padding-top:3em;
+.minitext {
+  padding-top: 3em;
   font-size: 0.8em;
   font-weight: 1;
 }
 
-.languages{
-  padding-top:1.5em;
+.languages {
+  padding-top: 1.5em;
   font-size: 1.2em;
   font-weight: 1;
 }
-/**** top left ****//**** top left ****//**** top left ****/
 
-#top-left{
-  padding:0em 4em;
-  margin:4em 0em;
+/**** top left ****/
+/**** top left ****/
+
+#top-left {
+  padding: 0em 4em;
+  margin: 4em 0em;
   float: left;
   width: 30%;
   border-right-style: solid;
@@ -59,8 +61,8 @@ body{
 }
 
 #photo {
-  position:relative;
-  width:80%;
+  position: relative;
+  width: 80%;
   transition: top ease 0.5s;
 }
 
@@ -69,45 +71,44 @@ body{
   right: -2px;
 }
 
-#top-left h1{
+#top-left h1 {
   padding-top: 1em;
   font-size: 2em;
 }
 
-.left_hr1{
+.left_hr1 {
   margin-top: 3em;
 }
 
-/**** top right ****//**** top right ****//**** top right ****/
+/**** top right ****/
+/**** top right ****/
 
-#top-right{
+#top-right {
   padding: 0em 4em;
-  margin:2em 0em;
-  float:right;
+  margin: 2em 0em;
+  float: right;
   width: 70%;
   box-sizing: border-box;
-
 }
 
-#top-right h1{
+#top-right h1 {
   padding-top: 1em;
   font-size: 2em;
 }
 
-.right_hr1{
+.right_hr1 {
   margin-top: 3em;
 }
 
-/**** languages images ****//**** languages images ****/
+/**** languages images ****/
+/**** languages images ****/
 
 #polish {
   padding-left: 2em;
   list-style-image: url('../images/polish.png');
-
 }
 
-#english{
+#english {
   padding-left: 2em;
   list-style-image: url('../images/english.png');
-
 }
