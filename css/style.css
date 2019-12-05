@@ -42,15 +42,17 @@ body {
 .paragraphs {
   font-size: 1.2em;
   font-weight: 1;
-  padding-top: 1.5em;
+  padding-top: 1em;
 }
 
 /**** top left ****/
 /**** top left ****/
 
 #top-left {
+  /*
   border-right-style: solid;
   border-right-width: 1px;
+  */
   box-sizing: border-box;
   float: left;
   margin: 4em 0em;
@@ -61,7 +63,7 @@ body {
 #photo {
   position: relative;
   transition: top ease 0.5s;
-  width: 80%;
+  width: 90%;
 }
 
 #photo:hover {
@@ -82,16 +84,19 @@ body {
 /**** top right ****/
 
 #top-right {
+  border-left-style: solid;
+  border-left-width: 1px;
   box-sizing: border-box;
   float: right;
-  margin: 2em 0em;
+  margin: 4em 0em;
   padding: 0em 4em;
   width: 70%;
 }
 
 #top-right h1 {
-  padding-top: 1em;
   font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 0.5em
 }
 
 .right_hr {
