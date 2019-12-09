@@ -9,7 +9,7 @@
   border-radius: 10px;
   margin: 2em auto;
   overflow: hidden;
-  width: 80%;
+  width: 65%;
 }
 
 body {
@@ -24,14 +24,14 @@ body {
 /**** text options ****/
 
 .strongtext {
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding-top: 2em;
   padding-bottom: 3px;
 }
 
 .smalltext {
   font-weight: 1;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .minitext {
@@ -41,7 +41,7 @@ body {
 }
 
 .paragraphs {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 1;
   padding-top: 1em;
 }
@@ -65,7 +65,7 @@ body {
 #photo {
   position: relative;
   transition: top ease 0.5s;
-  width: 90%;
+  width: 80%;
 }
 
 #photo:hover {
@@ -74,7 +74,7 @@ body {
 }
 
 #top-left h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   padding-top: 1em;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 #top-right h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   padding-top: 1em;
   padding-bottom: 0.5em
 }
