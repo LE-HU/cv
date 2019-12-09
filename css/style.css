@@ -16,7 +16,8 @@ body {
   background-color: #fff;
   background-image: url('../images/hex.png');
   background-position: center center;
-  font-family: Tahoma, Arial;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+
 }
 
 /**** text options ****/
